@@ -12,14 +12,14 @@ const Services = () => {
 
   return (
     <div>
-      <div className='text-center'>
+      <div className='text-center mb-5'>
         <h2 className='text-2xl text-orange-800 font-bold'>Services</h2>
         <h1 className='text-6xl font-bold'>Our Service Area</h1>
         <p className=''>the majority have suffered alteration in some form, by injected humour,<br />
           or randomised words which don't look even slightly believable. </p>
       </div>
 
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 '>
         {
           services.map(servise => <ServicesCart
             key={services._id}

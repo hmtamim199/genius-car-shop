@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   const menuItems = <>
-    <Link className='font-semibold' to='/'>Home</Link>
+    <Link className='font-semibold mr-4' to='/'>Home</Link>
+    <Link className='font-semibold' to='/login'>Login</Link>
   </>
   return (
     <div className="navbar mb-12 h-20 pt-12 bg-base-100">
